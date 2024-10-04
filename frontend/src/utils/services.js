@@ -1,4 +1,4 @@
-export const  baseUrl = "http://localhost:3000/api"
+export const  baseUrl = "https://video-calling-rf98.onrender.com"
 
 export const postRequest = async(url, body) =>{
    const response =  await fetch(url, {
